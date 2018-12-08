@@ -21,6 +21,7 @@ $config = PhpCsFixer\Config::create()
 		'compact_nullable_typehint' => true,
 		'concat_space' => ['spacing' => 'one'],
 		'dir_constant' => true,
+		'elseif' => false,
 		'escape_implicit_backslashes' => true,
 		'explicit_indirect_variable' => true,
 		'explicit_string_variable' => true,
@@ -49,6 +50,9 @@ $config = PhpCsFixer\Config::create()
 		'no_unset_on_property' => true,
 		'no_useless_else' => true,
 		'no_useless_return' => true,
+		'no_whitespace_before_comma_in_array' => true,
+		'normalize_index_brace' => true,
+		'object_operator_without_whitespace' => true,
 		'ordered_class_elements' => true,
 		'ordered_imports' => true,
 		'php_unit_internal_class' => true,
@@ -71,6 +75,7 @@ $config = PhpCsFixer\Config::create()
 		'strict_param' => true,
 		'string_line_ending' => true,
 		'trailing_comma_in_multiline_array' => true,
+		'trim_array_spaces' => true,
 		'yoda_style' => false,
 	])->setFinder($finder);
 
