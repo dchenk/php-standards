@@ -72,7 +72,6 @@ $config = PhpCsFixer\Config::create()
 		'single_line_comment_style' => true,
 		'standardize_not_equals' => true,
 		'strict_comparison' => false,
-		'strict_param' => true,
 		'string_line_ending' => true,
 		'trailing_comma_in_multiline_array' => true,
 		'trim_array_spaces' => true,
